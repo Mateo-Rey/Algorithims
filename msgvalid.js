@@ -15,7 +15,7 @@ function isAValidMessage(message) {
     })
     let strarr = message.split(/\d/)
     let fullstr = strarr.join('')
-    if (sum === fullstr.length && parseInt((message.charAt(0))) || message === '') {
+    if (sum === fullstr.length && parseInt((message[0])) || message === '') {
       return res = true;
     }
     return res;
